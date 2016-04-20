@@ -1,0 +1,25 @@
+{
+    "name": "treehouselabs/carerix-api-composer",
+    "authors": [
+        {
+            "name": "fieg",
+            "email": "jeroen@fieg.nl"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "http://pear.carerix.com"
+        },
+        {
+            "type": "pear",
+            "url": "http://pear.php.net"
+        }
+    ],
+    "require": {
+        "pear-pear.carerix.com/Carerix_Api_Rest": "*"
+    },
+    "config": {
+        "secure-http": false
+    }
+}
